@@ -1,0 +1,8 @@
+.transactions-list {
+  height: 400px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}

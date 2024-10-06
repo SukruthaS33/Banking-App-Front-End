@@ -1,0 +1,53 @@
+/* Add a scrollable table */
+.table-container {
+  max-height: 400px; /* Set the max height of the table container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* To ensure there's no space between table cells */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  position: sticky;
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  padding: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.view-customer-details {
+  width: auto;
+  padding: 10px 20px; /* Padding for button */
+  font-size: 18px; /* Font size for button */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+.tr-row-clicked {
+  background-color: rgb(37, 40, 46);
+  color: white;
+  cursor: pointer;
+}
+
+.popup {
+  width: 200px;
+}

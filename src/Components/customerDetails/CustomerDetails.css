@@ -1,0 +1,64 @@
+/* CustomerDetails.css */
+
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white; /* Ensure a light background */
+}
+
+/* Centering container for greeting, no account message, and button */
+.centered-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  height: calc(100vh - 60px); /* Use viewport height minus the header */
+}
+
+/* Styling for the greeting */
+.greeting {
+  font-size: 24px; /* Larger font for visibility */
+  font-weight: bold;
+  color: white; /* Changed to black for better contrast on white background */
+  /* Space below the greeting */
+}
+
+/* Styling for the message */
+.no-accounts-message {
+  font-size: 20px;
+  margin-bottom: 20px; /* Space between message and button */
+}
+
+/* Styling for the Create Account button */
+.create-account-button {
+  padding: 10px 20px; /* Padding for button */
+  font-size: 18px; /* Font size for button */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the button */
+.create-account-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.create-new-account-if-exists {
+  width: auto;
+  padding: 10px 20px; /* Padding for button */
+  font-size: 18px; /* Font size for button */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 10px;
+  right: 10px; /* Smooth transition for hover effect */
+}

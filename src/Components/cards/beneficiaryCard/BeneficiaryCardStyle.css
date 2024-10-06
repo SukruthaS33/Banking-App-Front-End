@@ -1,0 +1,87 @@
+.beneficiary-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px 0;
+  /*max-width: 400px;*/
+  width: 330px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.beneficiary-info h3 {
+  margin: 0 0 10px;
+  /*font-size: 18px;*/
+  font-size: 8px;
+  color: #333;
+}
+
+.beneficiary-info p {
+  margin: 5px 0;
+  /*font-size: 16px;*/
+  font-size: 8px;
+  color: #666;
+}
+
+.beneficiary-info p:last-child {
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+@media (min-width: 768px) {
+  .beneficiary-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+  }
+}
+
+.view-beneficiary-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  /*font-size: 14px;*/
+  font-size: 8px;
+  background-color: #2a9d8f;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-beneficiary-btn:hover {
+  background-color: #21867a;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-content input,
+.modal-content select {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.modal-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

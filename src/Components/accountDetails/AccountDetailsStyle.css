@@ -1,0 +1,61 @@
+.account-card-inside-account {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  height: 200px;
+  /*max-width: 400px;*/
+
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Optional: stack children vertically */
+}
+
+.account-info-inside-account-h3 {
+  margin: 0 0 10px;
+  /*font-size: 18px;*/
+  font-size: 2px;
+  color: #333;
+}
+
+.account-info-inside-account p {
+  margin: 5px 0;
+  /*font-size: 16px;*/
+  font-size: 28px;
+  color: #666;
+}
+
+.account-info-inside-account p:last-child {
+  font-weight: bold;
+  color: #2a9d8f;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+@media (min-width: 768px) {
+  .account-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+  }
+}
+
+.view-account-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  /*font-size: 14px;*/
+  font-size: 8px;
+  background-color: #2a9d8f;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-account-btn:hover {
+  background-color: #21867a;
+}

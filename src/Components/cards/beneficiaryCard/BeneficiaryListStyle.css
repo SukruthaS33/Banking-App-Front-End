@@ -1,0 +1,23 @@
+.beneficiary-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  overflow-x: auto;
+  width: auto;
+}
+
+.add-new-beneficiary {
+  width: auto;
+  padding: 10px 20px; /* Padding for button */
+  font-size: 18px; /* Font size for button */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 10px;
+  right: 10px; /* Smooth transition for hover effect */
+}
